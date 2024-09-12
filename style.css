@@ -1,0 +1,65 @@
+img{
+    width: 200px;
+}
+p{
+    text-align: center;
+}
+.обувь{
+    display: flex;
+    flex-direction: column;
+    /* width: 250px; */
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(0, 0, 0);
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+#a{
+    flex-grow: 3;
+}
+body{
+    background: rgb(235, 184, 89);
+}
+.каталог{
+    display: flex;
+    flex-wrap: wrap;
+    /* align-content: space-around ;
+    height: 400px; */
+}
+.меню{
+    display: flex;
+    justify-content: center;
+}
+a{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    font-size: 50px;
+}
+.ссылки{
+    display: flex;
+    justify-content: space-around;
+}
+@media(max-width:443px){
+    .каталог{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .меню{
+        display: flex;
+        flex-direction: column;
+    }
+    .ссылки a{
+        font-size: 20px;
+    }
+}
+.цена{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
